@@ -2,3 +2,4 @@ token.pickle
 /env
 /images
 __pycache__
+/.vscode
