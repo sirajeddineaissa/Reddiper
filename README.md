@@ -44,9 +44,9 @@ to launch to the following window :
 
 ## Tools
 
--Python
--OpenCV
--PRAW (The Python Reddit API Wrapper)
+* Python
+* OpenCV
+* PRAW (The Python Reddit API Wrapper)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
