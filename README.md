@@ -48,5 +48,17 @@ to launch to the following window :
 * OpenCV
 * PRAW (The Python Reddit API Wrapper)
 
+
+
+## Troubleshooting
+
+If you're having trouble managing your packages in a python virtual environement with VS Code. Make sure you've set the right python interpreter :
+
+1- ```CTRL+SHIFT+P```
+
+2- Python: Select Python Interpreter
+
+3- Select the one with the following path : ```./{name of your virtualenv}/bin/python```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

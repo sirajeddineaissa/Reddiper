@@ -23,7 +23,7 @@ def create_folder(image_path):
 
 def main():
     #Maximum amount of posts to scrape
-    max_quantity = 5
+    max_quantity = 30
     #Path to error images
     bypass = os.path.join(os.path.dirname(
         os.path.realpath(__file__)), "bypass/")
