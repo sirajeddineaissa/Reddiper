@@ -6,6 +6,7 @@ opencv-python==4.5.2.54
 praw==7.3.0
 prawcore==2.2.0
 PySimpleGUI==4.45.0
+python-dotenv==0.18.0
 requests==2.22.0
 requests-unixsocket==0.2.0
 update-checker==0.18.0

@@ -1,7 +1,7 @@
 
 # Reddiper
 
-Reddiper is an app that scrapes content from reddit ( for the moment, only images).
+Reddiper is an app that scrapes content from reddit (for the moment, only images).
 
 ## Installation
 
@@ -35,10 +35,12 @@ python3 UI.py
 ```
 to launch to the following window :
 <p align="center">
-  <img src="https://i.imgur.com/aFNRX5y.png">
+  <img src="https://i.imgur.com/L1h4Uqr.png">
 </p>
 
-2- Enter the name of the subreddits you want to scrape (some subreddits may present errors due to invalid names or error comparing images with the OpenCV library).
+2- Insert the name of the subreddits you want to scrape (some subreddits may present errors due to invalid names or error comparing images with the OpenCV library).
+3- Insert the maximum number of images to scrape from that subreddit
+4- Insert the submissions' category (controversial, hot, new, top, gilded, rising)
 3- Click on "Scrape Now"
 
 ## Tools
@@ -46,6 +48,7 @@ to launch to the following window :
 * Python
 * OpenCV
 * PRAW (The Python Reddit API Wrapper)
+* PySimpleGUI
 
 
 
