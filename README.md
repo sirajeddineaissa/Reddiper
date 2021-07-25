@@ -3,6 +3,26 @@
 
 Reddiper is an app that scrapes content from reddit (for the moment, only images).
 
+## User Credentials Setup
+
+1- Go to [App Preferences](https://www.reddit.com/prefs/apps)
+
+2- Setup a script-type app
+
+3- Collect the Client ID, Client Secret, User Agent, Username and Password
+
+4- Create a ``.env`` file in the root directory with the following structure :
+
+```
+$CLIENT_ID = <Your client ID>
+$CLIENT_SECRET = <Your client secret>
+$USER_AGENT = <it could be anything>
+$USERNAME =  <Your Reddit useranme>
+$PASSWORD = <Your Reddit password>
+```
+**Note : If you have entered wrong credentials and run the script, make sure you delete the generated ``token.pickle`` file after you fix your ``.env`` data.**
+
+
 ## Installation
 
 ### Linux
